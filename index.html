@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nossa loja online</title>
+  <!--LINK BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--LINK BOOTSTRAP-->
+
+  <!--LINK CSS-->
+  <link rel="stylesheet" href="style.css">
+  <!--LINK CSS-->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+</head>
+
+
+<body>
+  <!--BARRA DE NAVEGAÇÃO-->
+  <div class="offcanvas offcanvas-start" id="demo">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">Entre em contato:</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p><strong>Email:</strong>
+        gymsuplements@gmail.com
+      </p>
+      <p><strong>Instagram:</strong>
+        @Gym_Sups
+      </p>
+      <p><strong>WhatsApp/ Tel:</strong>
+        19 4002-8922 / 3861-2933
+      </p>
+
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <nav class="navbar navbar-expand-lg col-11 m-auto bg-body-tertiary">
+      <div class="container">
+        <button class="btn btn-none" id="contact" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+          Fale Conosco
+        </button>
+
+        <a class="main-txt" id="Logo" href="index.html">
+          <h1><span>G</span>ym</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="sobrenos.html">Sobre nós</a>
+
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 btn-outline-danger" type="search" placeholder="O que você procura?"
+              aria-label="Search">
+            <button class="submit-search" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  <!--BARRA DE NAVEGAÇÃO-->
+
+
+  <!-- CARROSEL -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- CARROSEL -->
+
+    <!--INDICADORES -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <!--INDICADORES -->
+
+    <!-- imgs carrosel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="bannersup.jpg" alt="Melhores suplementos" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="bannerroupa.jpg" alt="Roupas de treino" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="delivery.jpg" alt="Receba nossos produtos direto em casa" class="d-block" style="width:100%">
+      </div>
+    </div>
+    <!-- imgs carrosel -->
+
+    <!-- direção0 do carrosel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!-- direção0 do carrosel -->
+
+  <br>
+  <!-- produtos inicio -->
+  <section class="packages" id="packages">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>P</span>rodutos</h1>
+      </div>
+      <br>
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="whey.jpg" alt="">
+            <div class="card-body">
+              <h3>Whey Concentrado 1kg</h3>
+              <p>Produto com alta concentração de proteína para ganho de massa muscular</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Preço<strong> R$99,00</strong></h6>
+              <br>
+              <a href="comprar.html">Comprar</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="isolado.jpg" alt="Whey Isolado">
+            <div class="card-body">
+              <h3>Whey Isolado 1kg</h3>
+              <p>Possui alta concentração de proteína e baixo teor de gorduras e carboidratos.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Preço: <strong>R$ 69,99</strong></h6>
+              <br>
+              <a href="comprar.html">Comprar</a>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card" id="hidrolisado">
+            <img src="hidrolisado.png" alt="">
+            <div class="card-body">
+              <h3>Whey Hidrolisado</h3>
+              <p>Contém baixa quantidade de gorduras e carboidratos, com destaque para a alta concentração de proteínas
+                hidrolisadas.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Preço: <strong>R$ 129,90</strong></h6>
+              <br>
+              <a href="comprar.html">Comprar</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="creatina.jpg" alt="">
+            <div class="card-body">
+              <h3>Creatina 500g</h3>
+              <p>A creatina serve como fonte de produção de energia para as células musculares, de modo que melhora a
+                força e o tônus muscular</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Preço: <strong>R$ 149,99</strong></h6>
+              <br>
+              <a href="comprar.html">Comprar</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card" id="creatine">
+            <img src="creatina250.jpg" alt="">
+            <div class="card-body">
+              <h3>Creatina 250g</h3>
+              <p>A creatina serve como fonte de produção de energia para as células musculares, de modo que melhora a
+                força e o tônus muscular</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Preço: <strong>R$ 109,90</strong></h6>
+              <br>
+              <a href="comprar.html">Comprar</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card" id="pretreino">
+            <img src="pretreino.jpg" alt="">
+            <div class="card-body">
+              <h3>Pré Treino 300g</h3>
+              <p>Aumenta a disposição aos treinos, além de fornecer nutrientes que aumentem a capacidade em tolerar
+                esforços em alta intensidade.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Preço: <strong>R$ 49,99</strong></h6>
+              <br>
+              <a href="comprar.html">Comprar</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+  </section>
+  <!-- prdutos fim -->
+  <br>
+  <!-- inicio informações -->
+  <div class="container">
+    <div class="main-txt">
+      <h1><span>I</span>nformações</h1>
+      <br>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fas fa-hotel"></i>
+          <div class="card-body">
+            <h3>Para que serve o Whey?</h3>
+            <p>O consumo de whey protein auxilia na preservação da massa muscular durante o emagrecimento, o que é
+              importante para manter um metabolismo saudável e ajudar a manter a perda de peso a longo prazo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fas fa-utensils"></i>
+          <div class="card-body">
+            <h3>Quais são os tipos de Whey?</h3>
+            <p>Existem hoje no mercado 3 tipos de whey protein: concentrado, isolado e hidrolisado.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fas fa-bullhorn"></i>
+          <div class="card-body">
+            <h3>Qual a diferença entre eles?</h3>
+            <p>A principal diferença entre eles é a concentração de proteína. Enquanto o concentrado tem, em média, 80%
+              de proteína na composição, o isolado obtém níveis acima de 90%. Uma outra categoria existente é a dos whey
+              hidrolisados, que podem ser tanto concentrados quanto isolados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fas fa-globe-asia"></i>
+          <div class="card-body">
+            <h3>Quando devo tomar o Whey?</h3>
+            <p>Após os treinos físicos, o corpo trabalha para reconstruir o material muscular. Nesse momento, o consumo
+              de whey contribui para acelerar o fortalecimento das células. Por isso, o ideal é consumir o suplemento
+              próximo do treino ou logo após os exercícios.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fas fa-plane"></i>
+          <div class="card-body">
+            <h3>Para que serve a creatina e quando eu devo toma-la?</h3>
+            <p>A creatina pode ser ingerida antes e depois do treino. No pré-treino, pode auxiliar no desempenho físico
+              durante os exercícios, fornecendo energia, aumento do volume e qualidade do treino, além de maior síntese
+              de proteínas, o que favorece a hipertrofia com o ganho de massa muscular.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fas fa-hiking"></i>
+          <div class="card-body">
+            <h3>Faz mal à saúde consumir pré treino?</h3>
+            <p>Os pré-treinos podem provocar taquicardia, alterações na pressão arterial, entre outros problemas. Por
+              isso, eles não são recomendados para pessoas com cardiopatias, pressão alta e doenças crônicas de modo
+              geral. Além disso, é importante tomar a quantidade recomendada de acordo com seu peso corporal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- fim informações-->
+
+  <!-- Footer inicio -->
+  <footer id="footer">
+    <h1><span>G</span>ym</h1>
+    <p>Melhor loja de suplementos que você pode encontrar.</p>
+
+    <div class="credit">
+      <p>Feito por <a href="contato.html">Lucas Vir / Igor / Eduardo/ Gabriel Gallano</a></p>
+    </div>
+    <div class="copyright">
+      <p>&copy;Copyright Gym Sups</p>
+    </div>
+  </footer>
+  <!-- Footer fim -->
+
+  </div>
+  <!--LINKS JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--LINKS JS-->
+</body>
+
+</html>
